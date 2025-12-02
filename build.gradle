@@ -53,6 +53,7 @@ dependencies {
 	implementation "org.springframework.boot:spring-boot-starter-jdbc:${springBootVersion}"
 	implementation "org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}"
 	implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:${openApiSpringDocsVersion}"
+	implementation "com.sun.mail:jakarta.mail:2.0.1"
 
 	// These dependencies are required for the Spring Boot application to work with Camel
 	implementation "org.apache.camel.springboot:camel-spring-boot-starter:${camelVersion}"
